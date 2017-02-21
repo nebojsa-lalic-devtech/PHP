@@ -1,7 +1,4 @@
 <?php
 
-require 'autoload/autoloader.php';
-
-$user = new User('Nebojsa', 'Lalic', 'nebojsa.lalic@devtechgroup.com');
-
-echo "Hello from autoloaded 'User()' class with next details:\n" . $user->getUserDetails();
+require_once 'autoload\autoloader.php';
+require_once 'routes.php';

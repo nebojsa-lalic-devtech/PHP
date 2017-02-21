@@ -1,12 +1,12 @@
 <?php
 
 spl_autoload_register(function($class){
-    $path = $_SERVER['DOCUMENT_ROOT'] . '\app\\' . $class . '.php';
+    $path = $_SERVER['DOCUMENT_ROOT'] . '\classes\\' . $class . '.php';
 
     if(!file_exists($path)){
         return false;
     }else{
-        include_once $path;
+        include $path;
         return true;
     }
 });
