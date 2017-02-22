@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96d33f32-0e8e-43af-93fa-c3ead9c98caa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autoload/autoloader.php" afterPath="$PROJECT_DIR$/autoload/autoloader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.php" afterPath="$PROJECT_DIR$/views/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,22 +22,35 @@
         <splitter split-orientation="vertical" split-proportion="0.5295983">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="autoloader.php" pinned="false" current-in-tab="false">
+              <file leaf-file-name="autoloader.php" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/autoload/autoloader.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="140">
-                      <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                    <state relative-caret-position="340">
+                      <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+              <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/views/index.php">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="180">
-                      <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+                      <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
                       <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/README.md">
+                  <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                    <state split_layout="SPLIT">
+                      <first_editor relative-caret-position="160">
+                        <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                        <folding />
+                      </first_editor>
+                      <second_editor />
                     </state>
                   </provider>
                 </entry>
@@ -57,17 +69,17 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="autoloader.php" pinned="false" current-in-tab="false">
+              <file leaf-file-name="autoloader.php" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/autoload/autoloader.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="0">
-                      <caret line="19" column="53" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="53" />
+                    <state relative-caret-position="52">
+                      <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+              <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/index.php">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="60">
@@ -116,8 +128,8 @@
           <file leaf-file-name="about.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/about.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="20">
-                  <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                <state relative-caret-position="40">
+                  <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -150,8 +162,9 @@
         <option value="$PROJECT_DIR$/classes/user.php" />
         <option value="$PROJECT_DIR$/views/404.php" />
         <option value="$PROJECT_DIR$/views/about.php" />
-        <option value="$PROJECT_DIR$/views/index.php" />
         <option value="$PROJECT_DIR$/autoload/autoloader.php" />
+        <option value="$PROJECT_DIR$/views/index.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -327,12 +340,12 @@
       <option name="presentableId" value="Default" />
       <updated>1487596543582</updated>
       <workItem from="1487596544703" duration="13523000" />
-      <workItem from="1487750737977" duration="14191000" />
+      <workItem from="1487750737977" duration="17905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27714000" />
+    <option name="totallyTimeSpent" value="31428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -398,14 +411,6 @@
     <entry file="file://$PROJECT_DIR$/app/PrintUserDetails.php" />
     <entry file="file://$PROJECT_DIR$/app/IndexTmpl.php" />
     <entry file="file://$PROJECT_DIR$/app/user.php" />
-    <entry file="file://$PROJECT_DIR$/autoload/autoloader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -430,14 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -446,10 +443,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="160">
+            <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoload/autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding />
         </state>
       </provider>
