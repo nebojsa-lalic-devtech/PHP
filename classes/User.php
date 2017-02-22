@@ -1,11 +1,7 @@
 <?php
 
-//namespace classes;
-
-class User
+class User extends Person implements IUser
 {
-    private $first_name;
-    private $last_name;
     private $email;
     private $job;
 
@@ -18,8 +14,7 @@ class User
      */
     public function __construct($first_name, $last_name, $email, $job)
     {
-        $this->first_name = $first_name;
-        $this->last_name = $last_name;
+        parent::__construct($first_name, $last_name);
         $this->email = $email;
         $this->job = $job;
     }
@@ -28,39 +23,7 @@ class User
      * @return string
      */
     public function getUserDetails(){
-        return 'Name: ' . $this->first_name . ' ' . $this->last_name . ',<br>Email: ' . $this->email . '<br>Job: ' . $this->job;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getFirstName()
-    {
-        return $this->first_name;
-    }
-
-    /**
-     * @param mixed $first_name
-     */
-    public function setFirstName($first_name)
-    {
-        $this->first_name = $first_name;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getLastName()
-    {
-        return $this->last_name;
-    }
-
-    /**
-     * @param mixed $last_name
-     */
-    public function setLastName($last_name)
-    {
-        $this->last_name = $last_name;
+        return '<b>Name:</b> ' . $this->getFirstName() . ' ' . $this->getLastName() . ',<br><b>Email:</b> ' . $this->email . ',<br><b>Job:</b> ' . $this->job;
     }
 
     /**
