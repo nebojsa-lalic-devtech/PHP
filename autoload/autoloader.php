@@ -1,12 +1,20 @@
 <?php
 
-spl_autoload_register(function($class){
-    $path = $_SERVER['DOCUMENT_ROOT'] . '\classes\\' . $class . '.php';
+function autoload_multiple_directory($class){
+    $array_paths = array(
+        'classes',
+        'views'
+    );
 
-    if(!file_exists($path)){
-        return false;
-    }else{
-        include $path;
-        return true;
+    foreach($array_paths as $path)
+    {
+        $file = $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . $path . DIRECTORY_SEPARATOR . $class . '.php';
+        if(is_file($file))
+        {
+            include_once $file;
+        }
+
     }
-});
+}
+
+spl_autoload_register('autoload_multiple_directory');
