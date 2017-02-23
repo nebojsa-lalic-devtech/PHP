@@ -1,5 +1,7 @@
 <?php
 
+namespace classes;
+
 class User extends Person implements IUser
 {
     private $email;

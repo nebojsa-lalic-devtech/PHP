@@ -1,5 +1,7 @@
 <?php
 
+namespace classes;
+
 class Company implements ICompany
 {
 

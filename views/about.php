@@ -1,6 +1,6 @@
 <?php
 
-$company = new Company('DevTech', 'Mihajla Pupina 12', 'Information Technology');
+$company = new \classes\Company('DevTech', 'Mihajla Pupina 12', 'Information Technology');
 
 
 echo 'If you want <b>about page</b>, you are right there! :)<br>';

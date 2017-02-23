@@ -1,8 +1,8 @@
 <?php
 
-$user = new User('Nebojsa', 'Lalic', 'nebojsa.lalic@devtechgroup.com', 'Software developer');
-$user2 = new User('Petar', 'Petrovic', 'petarpetrovic@gmail.com', 'QA');
-$user3 = new User('X', 'Man', 'xman@yahoo.com', 'Project manager');
+$user = new \classes\User('Nebojsa', 'Lalic', 'nebojsa.lalic@devtechgroup.com', 'Software developer');
+$user2 = new \classes\User('Petar', 'Petrovic', 'petarpetrovic@gmail.com', 'QA');
+$user3 = new \classes\User('X', 'Man', 'xman@yahoo.com', 'Project manager');
 
 echo 'Welcome to <b>Home Page</b> :)!<br>';
 echo '-------------------------------------------------------';
