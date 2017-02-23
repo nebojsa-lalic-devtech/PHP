@@ -6,7 +6,7 @@ class Company implements ICompany
 {
 
     private $company_name;
-    private $address;
+    private $address = array();
     private $business_area;
 
     /**
@@ -75,6 +75,14 @@ class Company implements ICompany
      */
     public function get_company_details()
     {
-        return '<b>Company Name:</b> ' . $this->company_name . ',<br><b>Address:</b> ' . $this->address . ',<br><b>Business area:</b> ' . $this->business_area;
+        $addresses_string = '';
+        for ($i=0; $i<count($this->address); $i++){
+            $addresses_string .= $this->address[$i] . ', ';
+        }
+        $company_details_string = '<b>Company Name:</b> ' . $this->company_name
+            . ',<br><b>Address:</b> '
+            . $addresses_string
+            . '<br><b>Business area:</b> ' . $this->business_area;
+        return $company_details_string;
     }
 }
