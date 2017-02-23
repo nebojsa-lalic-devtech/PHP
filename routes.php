@@ -11,6 +11,10 @@ switch ($request_uri[1]) {
     case 'about':
         require_once 'views/about.php';
         break;
+    // Project page
+    case 'project':
+        require_once 'views/projects.php';
+        break;
     // Everything else
     default:
         header('HTTP/1.0 404 Not Found');
