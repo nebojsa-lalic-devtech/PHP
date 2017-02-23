@@ -2,7 +2,7 @@
 
 namespace classes;
 
-class Project extends Company
+class Project extends Company implements IProject
 {
     private $project_name;
     private $project_status;
