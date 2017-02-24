@@ -1,6 +1,6 @@
 <?php
 
-namespace classes;
+namespace app\NL\Models\Person;
 
 class Person
 {
@@ -49,8 +49,4 @@ class Person
     {
         $this->last_name = $last_name;
     }
-
-
-
-
 }

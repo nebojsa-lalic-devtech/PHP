@@ -1,14 +1,16 @@
 <?php
 
-namespace classes;
+namespace app\NL\Models\Employee;
 
-class User extends Person implements IUser
+use app\NL\Models\Person\Person;
+
+class Employee extends Person implements IEmployee
 {
     private $email;
     private $job;
 
     /**
-     * User constructor.
+     * Employee constructor.
      * @param $first_name
      * @param $last_name
      * @param $email
@@ -24,7 +26,8 @@ class User extends Person implements IUser
     /**
      * @return string
      */
-    public function getUserDetails(){
+    public function getUserDetails()
+    {
         return '<b>Name:</b> ' . $this->getFirstName() . ' ' . $this->getLastName() . ',<br><b>Email:</b> ' . $this->email . ',<br><b>Job:</b> ' . $this->job;
     }
 

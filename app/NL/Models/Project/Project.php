@@ -1,6 +1,8 @@
 <?php
 
-namespace classes;
+namespace app\NL\Models\Project;
+
+use app\NL\Models\Company\Company;
 
 class Project extends Company implements IProject
 {
@@ -53,7 +55,8 @@ class Project extends Company implements IProject
         $this->project_status = $project_status;
     }
 
-    public function getProject(){
+    public function getProject()
+    {
         return $this->project_name . ' have status ' . $this->project_status . ' and this is project of ' . $this->getCompanyName() . ' company';
     }
 }

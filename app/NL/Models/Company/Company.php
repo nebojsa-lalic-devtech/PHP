@@ -1,6 +1,6 @@
 <?php
 
-namespace classes;
+namespace app\NL\Models\Company;
 
 class Company implements ICompany
 {
@@ -76,7 +76,7 @@ class Company implements ICompany
     public function getCompanyDetails()
     {
         $addresses_string = '';
-        for ($i=0; $i<count($this->address); $i++){
+        for ($i = 0; $i < count($this->address); $i++) {
             $addresses_string .= $this->address[$i] . ', ';
         }
         $company_details_string = '<b>Company Name:</b> ' . $this->company_name

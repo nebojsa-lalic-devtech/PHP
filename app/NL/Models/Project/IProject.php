@@ -1,6 +1,6 @@
 <?php
 
-namespace classes;
+namespace app\NL\Models\Project;
 
 interface IProject
 {
