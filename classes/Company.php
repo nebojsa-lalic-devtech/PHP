@@ -73,7 +73,7 @@ class Company implements ICompany
     /**
      * @return string
      */
-    public function get_company_details()
+    public function getCompanyDetails()
     {
         $addresses_string = '';
         for ($i=0; $i<count($this->address); $i++){

@@ -53,7 +53,7 @@ class Project extends Company implements IProject
         $this->project_status = $project_status;
     }
 
-    public function get_project(){
+    public function getProject(){
         return $this->project_name . ' have status ' . $this->project_status . ' and this is project of ' . $this->getCompanyName() . ' company';
     }
 }

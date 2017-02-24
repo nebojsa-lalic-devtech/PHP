@@ -1,6 +1,6 @@
 <?php
 
-function autoload_multiple_directory($class){
+function autoloadMultipleDirectory($class){
         $file = $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . $class . '.php';
         if(is_file($file))
         {
@@ -8,4 +8,4 @@ function autoload_multiple_directory($class){
         }
 }
 
-spl_autoload_register('autoload_multiple_directory');
+spl_autoload_register('autoloadMultipleDirectory');

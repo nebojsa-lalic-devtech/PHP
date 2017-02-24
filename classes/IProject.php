@@ -4,5 +4,5 @@ namespace classes;
 
 interface IProject
 {
-    public function get_project();
+    public function getProject();
 }

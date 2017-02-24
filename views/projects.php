@@ -2,4 +2,4 @@
 
 $project = new \classes\Project('AppRiver', 'In Progress', 'Google', 'Street 01', 'IT');
 
-echo $project->get_project();
+echo $project->getProject();
