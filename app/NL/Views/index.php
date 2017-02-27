@@ -1,8 +1,12 @@
 <?php
 
-$user = new \app\NL\Models\Employee\Employee('Nebojsa', 'Lalic', 'nebojsa.lalic@devtechgroup.com', 'Software developer');
-$user2 = new \app\NL\Models\Employee\Employee('Petar', 'Petrovic', 'petarpetrovic@gmail.com', 'QA');
-$user3 = new \app\NL\Models\Employee\Employee('X', 'Man', 'xman@yahoo.com', 'Project manager');
+namespace app\NL\Views;
+
+use app\NL\Models\Employee\Employee;
+
+$user = new Employee('Nebojsa', 'Lalic', 'nebojsa.lalic@devtechgroup.com', 'Software developer');
+$user2 = new Employee('Petar', 'Petrovic', 'petarpetrovic@gmail.com', 'QA');
+$user3 = new Employee('X', 'Man', 'xman@yahoo.com', 'Project manager');
 
 echo 'Welcome to <b>Home Page</b> :)!<br>';
 echo '-------------------------------------------------------';
