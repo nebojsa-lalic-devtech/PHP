@@ -23,6 +23,7 @@ class Project extends Company implements IProject
         $this->project_name = $project_name;
         $this->project_status = $project_status;
     }
+
     /**
      * @return mixed
      */
