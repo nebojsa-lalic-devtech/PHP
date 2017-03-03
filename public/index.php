@@ -1,7 +1,6 @@
 <?php
 
 require_once '../app/NL/Autoload/autoloader.php';
-require_once '../app/NL/Route/Route.php';
 
 use app\NL\Route\Route;
 use app\NL\Models\Employee\Employee;
