@@ -9,3 +9,4 @@ function autoloadMultipleDirectory($class)
 }
 
 spl_autoload_register('autoloadMultipleDirectory');
+

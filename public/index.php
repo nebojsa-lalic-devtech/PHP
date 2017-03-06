@@ -2,14 +2,16 @@
 
 require_once '../app/NL/Autoload/autoloader.php';
 
-use app\NL\Route\Route;
+use app\NL\Route\FrontController;
 use app\NL\Models\Employee\Employee;
 use app\NL\Models\Company\Company;
 use app\NL\Models\Project\Project;
 
-$router = new Route();
+$frontController = new FrontController();
 
-$router->get('/', function () {
+$frontController->getUri();
+
+$frontController->setRoute('/', function () {
     $user = new Employee('Nebojsa', 'Lalic', 'nebojsa.lalic@devtechgroup.com', 'Software developer');
     $user2 = new Employee('Petar', 'Petrovic', 'petarpetrovic@gmail.com', 'QA');
     $user3 = new Employee('X', 'Man', 'xman@yahoo.com', 'Project manager');
@@ -22,7 +24,7 @@ $router->get('/', function () {
     echo '<br>' . '<p>' . $user3->getUserDetails() . '</p>';
 });
 
-$router->get('/about', function () {
+$frontController->setRoute('/about', function () {
     $company = new Company('DevTech', array('Mihajla Pupina 12', 'Janka Cmelika 7'), 'Information Technology');
 
     echo 'If you want <b>about page</b>, you are right there! :)<br>';
@@ -31,10 +33,11 @@ $router->get('/about', function () {
     echo '<p>' . $company->getCompanyDetails() . '</p>';
 });
 
-$router->get('/project', function () {
+$frontController->setRoute('/project', function () {
     $project = new Project('AppRiver', 'In Progress', 'Google', 'Street 01', 'IT');
 
     echo $project->getProject();
 });
 
-$router->dispatch();
+$frontController->dispatch();
+
