@@ -18,7 +18,7 @@ class FrontController implements IFrontController
      */
     public function setRoute($uri, $view)
     {
-        $this->routes += array($uri => $view);
+        $this->routes[$uri] = $view;
     }
 
     /**
